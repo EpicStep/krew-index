@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: hatch
 spec:
-  version: v0.0.8
+  version: v0.1.0
   platforms:
     - bin: kubectl-hatch.exe
-      uri: https://github.com/EpicStep/hatch/releases/download/v0.0.8/kubectl-hatch_v0.0.8_windows_arm64.zip
-      sha256: 076aa53fe35e8651ab9c5b04decd71d17a29d576b76a1b86fa7e82f61389ebdb
+      uri: https://github.com/EpicStep/hatch/releases/download/v0.1.0/kubectl-hatch_v0.1.0_windows_arm64.zip
+      sha256: 9b683a9a3b759e2e0d097af52103372ada000943b71d58055e6962feb64fde73
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-hatch.exe
-      uri: https://github.com/EpicStep/hatch/releases/download/v0.0.8/kubectl-hatch_v0.0.8_windows_amd64.zip
-      sha256: 75ddac7b7b90689793dec66b283506852e38f0cabda285c3458b5da5f6548336
+      uri: https://github.com/EpicStep/hatch/releases/download/v0.1.0/kubectl-hatch_v0.1.0_windows_amd64.zip
+      sha256: 3a8a59477b76946eff1bfee798914871be7c90985cc7e5e8142443d542e6dde0
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-hatch
-      uri: https://github.com/EpicStep/hatch/releases/download/v0.0.8/kubectl-hatch_v0.0.8_linux_arm64.tar.gz
-      sha256: 884dd0f9f627318cc880dd0064f35b3084c39a332a8131a6b9edfe05a0b975cc
+      uri: https://github.com/EpicStep/hatch/releases/download/v0.1.0/kubectl-hatch_v0.1.0_linux_arm64.tar.gz
+      sha256: 6f576417cd0fe2d6203549cf9d6f939707289920756978ce5eecc1d9c118df0f
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-hatch
-      uri: https://github.com/EpicStep/hatch/releases/download/v0.0.8/kubectl-hatch_v0.0.8_linux_amd64.tar.gz
-      sha256: 45806f5405bfd8b99df0ea8571afc91aeb59a4b081f53030ac782e818cad3043
+      uri: https://github.com/EpicStep/hatch/releases/download/v0.1.0/kubectl-hatch_v0.1.0_linux_amd64.tar.gz
+      sha256: 6c35a3dc662b84593c182bd639a386bb3176b31538c0ade5291c4e325818a503
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-hatch
-      uri: https://github.com/EpicStep/hatch/releases/download/v0.0.8/kubectl-hatch_v0.0.8_darwin_arm64.tar.gz
-      sha256: 322d183300a7fc9719a1364c774dd426b3177293fa7e27ecee0958047f7f4d94
+      uri: https://github.com/EpicStep/hatch/releases/download/v0.1.0/kubectl-hatch_v0.1.0_darwin_arm64.tar.gz
+      sha256: 7343b56334a499e2340568cc934f37f3ac0264ec927f705eacbb807fae284fac
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-hatch
-      uri: https://github.com/EpicStep/hatch/releases/download/v0.0.8/kubectl-hatch_v0.0.8_darwin_amd64.tar.gz
-      sha256: 3f544fdb144544074899e0e5fbfd7dd8c00a48069209c3937a3234b9547a10d0
+      uri: https://github.com/EpicStep/hatch/releases/download/v0.1.0/kubectl-hatch_v0.1.0_darwin_amd64.tar.gz
+      sha256: 478c973e14558477dd9bf6a32edf0c458a0a4cad8e204fc80a2b50ec3cdf971e
       selector:
         matchLabels:
           os: darwin
